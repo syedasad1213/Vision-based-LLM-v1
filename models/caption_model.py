@@ -1,6 +1,4 @@
-# week2_object_detection/models/caption_model.py
 # BLIP image captioning wrapper
-
 import torch
 import torch.nn.functional as F
 from transformers import BlipProcessor, BlipForConditionalGeneration
@@ -70,4 +68,5 @@ class CaptionModel:
                 max_prob = prob.max().item()
                 probs.append(max_prob)
             return float(np.mean(probs))
+
         return 0.75  # Default for beam search
