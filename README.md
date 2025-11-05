@@ -14,7 +14,6 @@ I add object detection capabilities to the image captioning system:
 Vision-based-LLM-v1/
 ├── app.py                      # Main Gradio application
 ├── models/
-│   ├── __init__.py
 │   ├── caption_model.py        # BLIP captioning wrapper
 │   ├── detection_model.py      # YOLOv8 detection wrapper
 │   └── translation_model.py    # MarianMT translation wrapper
@@ -301,5 +300,6 @@ MIT License - Free to use and modify.
 - BLIP Model: https://huggingface.co/Salesforce/blip-image-captioning-large
 - Gradio Documentation: https://www.gradio.app/docs/
 - PyTorch Installation: https://pytorch.org/get-started/locally/
+
 
 
