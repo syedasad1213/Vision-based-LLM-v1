@@ -19,6 +19,7 @@ Vision-based-LLM-v1/
 │   └── translation_model.py    # MarianMT translation wrapper
 ├── utils/
 │   ├── __init__.py
+│   ├── config.py
 │   └── image_utils.py          # Image processing utilities
 ├── requirements.txt
 └── README.md
@@ -300,6 +301,7 @@ MIT License - Free to use and modify.
 - BLIP Model: https://huggingface.co/Salesforce/blip-image-captioning-large
 - Gradio Documentation: https://www.gradio.app/docs/
 - PyTorch Installation: https://pytorch.org/get-started/locally/
+
 
 
 
