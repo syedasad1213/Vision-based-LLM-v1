@@ -1,8 +1,6 @@
-# Week 2: Object Detection
-
 ## Features
 
-This week adds object detection capabilities to the image captioning system from Week 1:
+I add object detection capabilities to the image captioning system:
 
 - Image captioning using BLIP-large model
 - Object detection and localization with YOLOv8
@@ -13,7 +11,7 @@ This week adds object detection capabilities to the image captioning system from
 ## Project Structure
 
 ```
-week2_object_detection/
+Vision-based-LLM-v1/
 ├── app.py                      # Main Gradio application
 ├── models/
 │   ├── __init__.py
@@ -268,7 +266,7 @@ With GPU (NVIDIA RTX 3060):
 
 ## Next Steps
 
-Week 3 will add vision-language model integration:
+I will add vision-language model integration:
 - Interactive question and answer about images
 - Conversation context tracking
 - LLM integration (GPT-4, Claude, or local models)
@@ -303,4 +301,5 @@ MIT License - Free to use and modify.
 - BLIP Model: https://huggingface.co/Salesforce/blip-image-captioning-large
 - Gradio Documentation: https://www.gradio.app/docs/
 - PyTorch Installation: https://pytorch.org/get-started/locally/
+
 
