@@ -1,6 +1,3 @@
-# week3_vlm_integration/models/translation_model.py
-# Translation model wrapper (same as Week 2)
-
 import torch
 from transformers import MarianMTModel, MarianTokenizer
 
@@ -62,4 +59,5 @@ class TranslationModel:
         
         except Exception as e:
             print(f"Translation error: {e}")
+
             return f"[Translation error: {str(e)}]"
