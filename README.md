@@ -33,14 +33,14 @@ It's recommended to use a virtual environment to avoid package conflicts.
 
 Windows:
 ```bash
-cd week2_object_detection
+cd Vision-based-LLM-v1_object_detection
 python -m venv venv
 venv\Scripts\activate
 ```
 
 Linux/Mac:
 ```bash
-cd week2_object_detection
+cd Vision-based-LLM-v1_object_detection
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -213,7 +213,7 @@ To improve speed, use a GPU:
 
 Manual download steps:
 1. Download from: https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
-2. Place file in project root: `week2_object_detection/yolov8n.pt`
+2. Place file in project root: `Vision-based-LLM-v1_object_detection/yolov8n.pt`
 3. The model will be found automatically
 
 ## Customization
@@ -301,6 +301,7 @@ MIT License - Free to use and modify.
 - BLIP Model: https://huggingface.co/Salesforce/blip-image-captioning-large
 - Gradio Documentation: https://www.gradio.app/docs/
 - PyTorch Installation: https://pytorch.org/get-started/locally/
+
 
 
 
