@@ -1,5 +1,3 @@
-# Week 2 Requirements - Object Detection
-
 # Core ML Libraries
 torch>=2.0.0
 torchvision>=0.15.0
@@ -20,4 +18,5 @@ gradio>=4.0.0
 sentencepiece>=0.1.99  # Required for MarianMT
 
 # Optional but recommended
+
 accelerate>=0.20.0  # Faster model loading
