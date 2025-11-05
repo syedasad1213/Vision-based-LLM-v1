@@ -1,4 +1,3 @@
-# week2_object_detection/models/detection_model.py
 # YOLOv8 object detection wrapper
 
 from ultralytics import YOLO
@@ -79,4 +78,5 @@ class DetectionModel:
             class_name = det['class']
             counts[class_name] = counts.get(class_name, 0) + 1
         
+
         return counts
