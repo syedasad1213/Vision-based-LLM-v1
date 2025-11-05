@@ -1,0 +1,23 @@
+# Week 2 Requirements - Object Detection
+
+# Core ML Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# Object Detection
+ultralytics>=8.0.0  # YOLOv8
+
+# Image Processing
+Pillow>=9.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# UI
+gradio>=4.0.0
+
+# Translation
+sentencepiece>=0.1.99  # Required for MarianMT
+
+# Optional but recommended
+accelerate>=0.20.0  # Faster model loading
