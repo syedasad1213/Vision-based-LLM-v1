@@ -1,6 +1,3 @@
-# week2_object_detection/app.py
-# Main application combining caption, translation, and object detection
-
 import gradio as gr
 from models.caption_model import CaptionModel
 from models.detection_model import DetectionModel
@@ -148,4 +145,5 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("LAUNCHING WEEK 2: OBJECT DETECTION")
     print("="*60 + "\n")
+
     demo.launch(share=False)
