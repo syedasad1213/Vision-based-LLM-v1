@@ -1,6 +1,3 @@
-# week2_object_detection/utils/image_utils.py
-# Image processing utilities for Week 2
-
 from PIL import Image, ImageDraw, ImageFont
 import random
 
@@ -130,4 +127,5 @@ def resize_image(image, max_size=1024):
         new_height = max_size
         new_width = int(width * (max_size / height))
     
+
     return image.resize((new_width, new_height), Image.Resampling.LANCZOS)
